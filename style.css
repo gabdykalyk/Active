@@ -75,7 +75,7 @@ p {
 }
 
 .nav__link:first-child {  /* ПЕРВЫЙ ЭЛЕМЕНТ NAV */
-    margin-left: 0;  //  /* УБИРАЕМ ОТСТУП СЛЕВА */
+    margin-left: 0;       /* УБИРАЕМ ОТСТУП СЛЕВА */
 }
 
 .nav__link:hover {  /* ПРИ НАВЕДЕНИИ */
@@ -320,7 +320,7 @@ p {
     fill: #c6cacc;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
     .features {
         flex-direction: column;
     }
